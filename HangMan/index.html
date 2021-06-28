@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="head">
+            <h1>HANGMAN</h1>
+            <h2>VANILLA JAVASCRIPT HANGMAN GAME</h2>
+        </div>
+        <div id="body">
+            <h3>Use the alphabet below to guess the word, or click hint to get a clue.</h3>          
+            <div id="letters">
+                <ul class="set">
+
+                </ul>
+    
+            </div>      
+            <div id="result">
+                <h3 class="resultAppend">The Chosen Category Is Films</h3>
+                <div class="resultAppendLine">
+
+                </div>
+                <div class="answer" hidden></div>
+
+                <div class="health"><h3 class="h">You have 10 lives</h3></div>
+            </div>
+        </div>
+        <div id="footer">
+            <button id="again" class="btn-finish">PLAY AGAIN</button>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
